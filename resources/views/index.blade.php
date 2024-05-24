@@ -13,7 +13,7 @@
 <body>
 <header class="header">
     <div class="logo">
-        <img src="{{ asset('storage/images/logo.png') }}" alt="Logo">
+        <img src="{{ asset('asset/images/logo.png') }}" alt="Logo">
     </div>
     <div class="nav">
         <div class="search">
@@ -53,7 +53,7 @@
         <i class="fa-solid fa-braille"></i>
 
         <h5 class="user-img">Jack Carter</h5>
-        <img src="{{ asset('storage/images/admin.jpg') }}" alt="user-img">
+        <img src="{{ asset('asset/images/admin.jpg') }}" alt="user-img">
         <i class="fa-solid fa-gear"></i>
     </div>
 </header>
@@ -74,8 +74,8 @@
 
     <div class="content">
         <div class="content-top">
-            <img class="profile-background" src="{{asset('storage/images/profile-image.jpg')}}" alt="profile-image">
-            <img class="avatar" src="{{asset('storage/images/author.jpg')}}" alt="author">
+            <img class="profile-background" src="{{asset('asset/images/profile-image.jpg')}}" alt="profile-image">
+            <img class="avatar" src="{{asset('asset/images/author.jpg')}}" alt="author">
             <div class="star">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -129,28 +129,28 @@
                 <div class="list-badges">
 
                     <a href="#">
-                        <img src="{{ asset('storage/images/badge2.png') }}" alt="img">
+                        <img src="{{ asset('asset/images/badge2.png') }}" alt="img">
                     </a>
                     <a href="#">
-                        <img src="{{ asset('storage/images/badge2.png') }}" alt="img">
+                        <img src="{{ asset('asset/images/badge2.png') }}" alt="img">
                     </a>
                     <a href="#">
-                        <img src="{{ asset('storage/images/badge2.png') }}" alt="img">
+                        <img src="{{ asset('asset/images/badge2.png') }}" alt="img">
                     </a>
                     <a href="#">
-                        <img src="{{ asset('storage/images/badge2.png') }}" alt="img">
+                        <img src="{{ asset('asset/images/badge2.png') }}" alt="img">
                     </a>
                     <a href="#">
-                        <img src="{{ asset('storage/images/badge2.png') }}" alt="img">
+                        <img src="{{ asset('asset/images/badge2.png') }}" alt="img">
                     </a>
                     <a href="#">
-                        <img src="{{ asset('storage/images/badge2.png') }}" alt="img">
+                        <img src="{{ asset('asset/images/badge2.png') }}" alt="img">
                     </a>
                     <a href="#">
-                        <img src="{{ asset('storage/images/badge2.png') }}" alt="img">
+                        <img src="{{ asset('asset/images/badge2.png') }}" alt="img">
                     </a>
                     <a href="#">
-                        <img src="{{ asset('storage/images/badge2.png') }}" alt="img">
+                        <img src="{{ asset('asset/images/badge2.png') }}" alt="img">
                     </a>
 
                 </div>
@@ -161,7 +161,7 @@
                     <span>Create Post</span>
                     <div class="horizontal-line"></div>
                     <div class="write-post">
-                        <img src="{{ asset('storage/images/admin.jpg') }}" alt="user-img">
+                        <img src="{{ asset('asset/images/admin.jpg') }}" alt="user-img">
                         <input type="text" placeholder="Share some what you are thinking?" class="search-input">
 
                     </div>
@@ -194,7 +194,7 @@
                     <h4>Your Page</h4>
 
                     <div class="my-page">
-                        <img src="{{asset('storage/images/friend-avatar9.jpg')}}" alt="friend">
+                        <img src="{{asset('asset/images/friend-avatar9.jpg')}}" alt="friend">
                         <ul>
                             <li><a class="title" href="#">My Creative Page</a></li>
                             <li><i class="fa-regular fa-message"></i> <a href="#">Messages </a></li>
@@ -227,17 +227,17 @@
     </div>
 
     <div class="right">
-        <img src="{{ asset('storage/images/side-friend1.jpg') }}" alt="side-friend1">
-        <img src="{{ asset('storage/images/side-friend2.jpg') }}" alt="side-friend2">
-        <img src="{{ asset('storage/images/side-friend3.jpg') }}" alt="side-friend3">
-        <img src="{{ asset('storage/images/side-friend4.jpg') }}" alt="side-friend4">
-        <img src="{{ asset('storage/images/side-friend5.jpg') }}" alt="side-friend5">
-        <img src="{{ asset('storage/images/side-friend6.jpg') }}" alt="side-friend6">
-        <img src="{{ asset('storage/images/side-friend7.jpg') }}" alt="side-friend7">
-        <img src="{{ asset('storage/images/side-friend8.jpg') }}" alt="side-friend8">
-        <img src="{{ asset('storage/images/side-friend9.jpg') }}" alt="side-friend9">
-        <img src="{{ asset('storage/images/side-friend10.jpg') }}" alt="side-friend10">
-        <img src="{{ asset('storage/images/side-friend8.jpg') }}" alt="side-friend8">
+        <img src="{{ asset('asset/images/side-friend1.jpg') }}" alt="side-friend1">
+        <img src="{{ asset('asset/images/side-friend2.jpg') }}" alt="side-friend2">
+        <img src="{{ asset('asset/images/side-friend3.jpg') }}" alt="side-friend3">
+        <img src="{{ asset('asset/images/side-friend4.jpg') }}" alt="side-friend4">
+        <img src="{{ asset('asset/images/side-friend5.jpg') }}" alt="side-friend5">
+        <img src="{{ asset('asset/images/side-friend6.jpg') }}" alt="side-friend6">
+        <img src="{{ asset('asset/images/side-friend7.jpg') }}" alt="side-friend7">
+        <img src="{{ asset('asset/images/side-friend8.jpg') }}" alt="side-friend8">
+        <img src="{{ asset('asset/images/side-friend9.jpg') }}" alt="side-friend9">
+        <img src="{{ asset('asset/images/side-friend10.jpg') }}" alt="side-friend10">
+        <img src="{{ asset('asset/images/side-friend8.jpg') }}" alt="side-friend8">
 
     </div>
 </div>

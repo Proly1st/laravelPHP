@@ -13,7 +13,7 @@ $(function (){
                data+=`
                 <div class="list-post">
                 <div class="post-info">
-                        <img src="${'storage/images/admin.jpg'}" alt="avatar">
+                        <img src="${'asset/images/admin.jpg'}" alt="avatar">
                         <div class="post-detail">
                             <span class="name">${v.name}</span>
                             <span class="time">${v.created_at}</span>
