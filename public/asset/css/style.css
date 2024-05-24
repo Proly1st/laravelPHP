@@ -1,0 +1,711 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button, input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+
+.header{
+    background-color: #30305B;
+    display: flex;
+    justify-content: start;
+    height: 55px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.logo{
+    padding: 11px 0 11px 15px;
+}
+
+.logo img{
+    max-width: 100px;
+}
+
+
+.nav{
+    width: 64%;
+    display: flex;
+    justify-content: start;
+    color: #ffffff;
+
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 5px 10px;
+    background-color: #45456C;
+    width: 42%;
+    margin-left: 8%;
+
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    padding: 5px;
+    color: #fff;
+}
+
+.search-input::placeholder {
+    color: #FFFFFF;
+}
+
+.search-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.search-button i {
+    font-size: 18px;
+    color: #fff;
+}
+
+.page-name{
+    text-transform: uppercase;
+    padding: 0 30px;
+    font-size: 12px;
+}
+
+.sub-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.sub-nav a {
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.sub-nav a:hover {
+
+    background-color: #45456C;
+    transition: all 0.2s linear 0s;
+}
+
+.sub-nav li a span{
+    position: absolute;
+    bottom: 23px;
+    left: 28px;
+    font-size: 9px;
+    border-radius: 100%;
+
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    line-height: 14px;
+
+}
+
+.profile{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 9%;
+}
+
+.profile i, h5{
+    margin: auto 16px;
+}
+
+.profile img{
+    border-radius: 50%;
+    display: inline-block;
+    transform: scale(0.67);
+    vertical-align: inherit;
+    border: 2px solid rgba(255, 255, 255, .8);
+}
+
+.main {
+
+    background-color: #EDF2F6;
+
+}
+
+.left {
+    position: fixed;
+    left: 0;
+    top: 55px;
+    width: 70px;
+    background-color: #fff;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    padding: 30px 0;
+}
+
+.left i{
+    width: 50%;
+    text-align: center;
+    padding: 9px 0;
+    margin: 15px 0;
+    border-radius: 100%;
+    background-color: #EDF2F6;
+    flex-shrink: 0;
+
+}
+
+.left i:hover{
+    background-color: #DDDDFE;
+    box-shadow: 0 0 0 3px rgb(48 48 91 / 25%);
+
+}
+
+.content {
+
+    display: flex;
+    flex-direction: column;
+}
+.content-top{
+    position: relative;
+    top: 88px;
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.content-top .profile-background{
+
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.content-top .avatar{
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    border-radius: 100%;
+    border: solid 3px #ffffff;
+    max-width: 155px;
+}
+
+.content-top .star{
+    position: absolute;
+    color: #FFA500;
+    top: 16px;
+    right: 16px;
+}
+
+.content-top span{
+    color: #fff;
+}
+
+.profile-control{
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.4) none repeat scroll 0 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.profile-control a{
+    border-radius: 100%;
+    padding: 11px;
+    color: #fff;
+    margin-right: 4px;
+
+}
+
+.profile-section{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: -60px;
+    background-color: #fff;
+    height: 65px;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-section .info{
+    margin-left: 52px;
+}
+
+.profile-section .name{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.profile-section .country{
+    font-size: 12px;
+    text-align: center;
+}
+
+.profile-menu{
+
+}
+
+.profile-menu a:hover{
+    color: #FA6341;
+}
+
+.profile-menu a{
+    margin: 0 22px;
+    font-size: 14px;
+    font-weight:bold;
+}
+
+.profile-menu .caret-up{
+    position: absolute;
+    bottom: -10px;
+    left: 470px;
+    font-size: 26px;
+    color: #FA6341
+}
+
+.profile-menu .etc{
+    border-radius: 100%;
+    padding: 10px 12px;
+    background-color: #DEDEFF;
+}
+
+.follow-detail {
+    display: flex;
+    align-items: center;
+}
+
+.follow-detail span,
+.follow-detail ins {
+    display: block;
+    color: #000;
+}
+
+.follow-detail span{
+    padding: 0 10px;
+}
+
+.follow-detail ins{
+    text-decoration: none;
+    color:#FA6341 ;
+}
+
+.content-bottom{
+    display: flex;
+    padding-top: 170px;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1440px;
+
+    justify-content: space-between;
+}
+
+.user-badges{
+    width: 25%;
+}
+
+.user-badges a{
+    font-size: 13px;
+}
+
+
+.badges-title{
+    border: solid 1px #ccc;
+    padding: 10px 12px;
+    background-color: #fff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.badges-title a{
+    line-height: 24px;
+    font-weight: normal;
+    float: right;
+    color: #FA6341;
+    font-size: 11px;
+}
+
+.list-badges{
+    border-right: 1px solid #ccc; /* Đường viền bên phải */
+    border-bottom: 1px solid #ccc; /* Đường viền dưới */
+    border-left: 1px solid #ccc;
+    background-color: #fff;
+    padding: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.list-badges a img{
+    width: 16%;
+    height: auto;
+}
+
+.content-center{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-post span{
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 10px;
+
+}
+
+
+
+.create-post , .list-post{
+    padding: 10px 12px;
+    background-color: #ffffff;
+    border: solid 1px #ccc;
+    margin: 0 16px;
+    border-radius: 10px;
+}
+
+.list-post{
+    margin-top: 32px;
+ }
+
+.post-info{
+    display: flex;
+
+}
+
+.post-info img{
+    border-radius: 100%;
+    margin-right: 16px;
+}
+
+.post-detail{
+    display: flex;
+    flex-direction: column;
+}
+
+.post-detail .name{
+    color: #FA6341;
+}
+
+.post-detail .time{
+    color: #999999;
+    font-size: 12px;
+
+}
+
+
+
+.post-content{
+    color: #727895;
+    font-size: 14px;
+    margin: 12px 0;
+}
+
+.post-content p{
+   word-break: break-all;
+}
+
+
+
+.post-feel{
+    margin: 12px 0;
+
+}
+
+.post-feel a{
+    margin: 0 12px;
+}
+
+.horizontal-line {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.write-post{
+    display: flex;
+    padding: 24px 0;
+
+}
+
+.write-post img{
+    border-radius: 100%;
+    margin-right: 12px;
+
+}
+
+.write-post input{
+    font-size: 20px;
+    width: 70%;
+    color: #000;
+
+}
+
+.write-post input::placeholder{
+    color: #ccc;
+
+}
+
+.post-icon{
+    padding-bottom: 16px;
+}
+
+.post-icon li a{
+    margin-right: 12px;
+}
+
+.post-submit{
+    background-color: #23BBE2;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #fff;
+    padding: 8px;
+}
+
+.your-page{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.your-page h4{
+    border-bottom: solid 1px #cccccc;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.sub-page{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 12px;
+}
+
+.my-page{
+    display: flex;
+    padding: 16px 0;
+}
+
+.my-page img{
+    border-radius: 100%;
+    max-width: 55px;
+    max-height: 55px;
+    margin: 10px 12px 0 0;
+}
+
+.my-page .title {
+    font-weight: 600;
+}
+
+.your-page-icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.your-page-icon li{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.right {
+    position: fixed;
+    right: 0;
+    top: 55px;
+    width: 70px;
+    background-color: #fff;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    padding: 30px 0;
+
+
+}
+
+
+.right img{
+    width: 50%;
+    text-align: center;
+
+    margin: 15px 0;
+    border-radius: 100%;
+    background-color: #EDF2F6;
+    flex-shrink: 0;
+
+}
+
+.right img:hover{
+
+    box-shadow: 0 0 0 3px rgb(48 48 91 / 25%);
+
+}
+
+/* CSS cho khung hình nhỏ */
+@media (max-width: 767px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .header .search{
+        width: 90%;
+    }
+
+
+    .profile-section{
+        flex-direction: column;
+        align-items: center;
+        bottom: -132px;
+        height: 140px;
+    }
+
+    .content-top {
+        padding-top: 100px;
+    }
+    .content-top .avatar{
+        max-width: 100px;
+    }
+    .content-bottom{
+        padding-top: 240px;
+    }
+
+    .content-top , .content-bottom{
+        width: 90%;
+    }
+}
+
+@media  (max-width: 1023px){
+    .page-name,
+    .sub-nav,
+    .left,
+    .right {
+        display: none;
+    }
+
+}
+
+/* CSS cho khung hình trung bình */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .header .search{
+        width: 90%;
+    }
+
+    .content-top .avatar{
+        max-width: 130px;
+    }
+
+   .profile {
+       justify-content: start;
+   }
+    .profile-menu a{
+        margin: 0 12px;
+        font-size: 14px;
+    }
+
+
+    .content-top {
+        padding-top: 100px;
+    }
+
+    .content-top .star {
+        top: 120px;
+    }
+
+    .content-top , .content-bottom{
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 920px) {
+
+    .user-badges{
+        width: 35%;
+    }
+
+    .content-center{
+        width: 60%;
+    }
+
+    .your-page{
+        display: none;
+    }
+}
+
+
+
+/* CSS cho khung hình lớn */
+@media (min-width: 1024px) {
+
+}
+
+

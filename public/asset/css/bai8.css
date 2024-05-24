@@ -1,0 +1,31 @@
+
+.container{
+    display: flex;
+    text-align: center;
+    /*flex-direction: column;*/
+
+}
+
+.select2-container {
+    width: 200px !important;
+    max-height: 300px !important;
+}
+table,th, td {
+    border:1px solid black;
+    padding: 10px;
+}
+
+table{
+
+    margin: 24px auto;
+
+}
+
+#tableAPI_wrapper{
+    padding-top: 20px;
+}
+
+.table-css{
+    display: flex;
+    flex-direction: column;
+}
