@@ -134,12 +134,8 @@ $(function (){
         result2 = [...new Set(result2)];
         $('#lb-b6b').text("Mảng Khác nhau: ["+result2 +" ]" );
     })
-})
 
-
-// bai 7
-$(function (){
-
+    // bai 7
     let countdownTime = 60; // Đặt thời gian đếm ngược ban đầu (tính bằng giây)
     let countdownInterval;
     let isCountdownRunning = false;
@@ -148,7 +144,7 @@ $(function (){
         isCountdownRunning = true;
         countdownInterval = setInterval(function() {
             countdownTime--;
-           $('#countdown').text(countdownTime);
+            $('#countdown').text(countdownTime);
 
             if (countdownTime === 0) {
                 clearInterval(countdownInterval);
@@ -166,3 +162,5 @@ $(function (){
 
     })
 })
+
+

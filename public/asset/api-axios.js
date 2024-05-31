@@ -7,22 +7,22 @@ $(function () {
     // "ProjectId: 8001 Method: 0" +
     // " Token:Bearer 45a15d5b-b54c-4f24-8887-c38ea02f0e37 " +
     // "Request:http://172.16.10.118:7080/api/v9/admins?admin_role_id=-1&status=-1 Body:null"
-    axios.get('http://172.16.10.118:7080/api/v9/admins?admin_role_id=-1&status=-1'
+    axios.get(apiUrl
         , {
-            // params:{
-            //     limit:20,
-            //     post_type:0,
-            // },
+            params:{
+                limit:20,
+                post_type:0,
+            },
             headers: {
-                // 'Authorization':token
-                'Authorization': 'Bearer 45a15d5b-b54c-4f24-8887-c38ea02f0e37 ',
-                'ProjectId': 8001,
-                'Method': 0
+                'Authorization':token
+                // 'Authorization': 'Bearer 45a15d5b-b54c-4f24-8887-c38ea02f0e37 ',
+                // 'ProjectId': 8001,
+                // 'Method': 0
             }
         }
     ).then(response => {
         console.log(response.data);
-        return;
+        // return;
         const data = response.data.data;
         console.log(response.data.data)
         const tableData = data.map(item => ({

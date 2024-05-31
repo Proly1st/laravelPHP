@@ -1,0 +1,83 @@
+table,th, td {
+    border:1px solid black;
+    padding: 10px;
+}
+
+table{
+
+    margin: 24px auto;
+
+}
+
+#tableAPI_wrapper{
+    padding-top: 20px;
+}
+
+.table-css{
+    display: flex;
+
+    justify-content: space-between;
+}
+/* Để bảng DataTables rộng hơn */
+#my-datatable_wrapper {
+    max-width: 100%;
+    text-align: center;
+}
+
+/* Để ô chứa hình ảnh rộng và cao hơn */
+#my-datatable img {
+    width: 120px; /* Độ rộng */
+    height: 120px; /* Độ cao */
+    object-fit: cover; /* Đảm bảo hình ảnh đầy đủ bên trong ô */
+}
+
+/* Để tiêu đề của các cột đặt trung tâm */
+#my-datatable th {
+    text-align: center;
+}
+
+/* Để ô chứa nút xóa ở giữa */
+#my-datatable .btn {
+    display: block;
+    margin: 0 auto;
+}
+
+.dt-scroll-head{
+    display: none;
+}
+
+.cart-delete:hover {
+    cursor: pointer;
+}
+
+.dt-scroll-foot{
+    display: none;
+}
+
+.cart-soluong{
+
+}
+
+.total{
+
+}
+
+.vat-input-container{
+    margin-top: 12px;
+}
+
+.bill-detail{
+    border: solid 1px #000;
+    padding-left: 8px;
+    margin-top: 16px;
+}
+
+
+.btn-add-cart{
+    text-align: center;
+    margin: 8px 0;
+}
+
+.payments{
+    padding: 8px;
+}

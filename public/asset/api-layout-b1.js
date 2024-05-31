@@ -8,8 +8,6 @@ $(function (){
             console.log(response.data.data.data)
             let data='';
             for(const v of response.data.data.data){
-
-
                data+=`
                 <div class="list-post">
                 <div class="post-info">
@@ -33,9 +31,7 @@ $(function (){
                             <a href="#"><i class="fa-solid fa-share"></i></a>
                         </li>
                     </ul>  </div>`
-
             }
-
             $('.post1').html(data);
         }else{
             console.log(response.data.message)
